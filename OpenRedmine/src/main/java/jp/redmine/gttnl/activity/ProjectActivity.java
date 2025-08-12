@@ -163,7 +163,7 @@ public class ProjectActivity extends TabActivity<DatabaseCacheHelper>
 
 
 		// wiki
-		ProjectArgument argWiki = new ProjectArgument();
+	/*	ProjectArgument argWiki = new ProjectArgument();
 		argWiki.setArgument();
 		argWiki.importArgument(intent);
 		list.add((new CorePage<ProjectArgument>() {
@@ -175,7 +175,7 @@ public class ProjectActivity extends TabActivity<DatabaseCacheHelper>
 						.setParam(argWiki)
 						.setName(getString(R.string.wiki))
 						.setIcon(R.drawable.ic_book_open)
-		);
+		);*/
 
 		// news
 		ProjectArgument argNews = new ProjectArgument();

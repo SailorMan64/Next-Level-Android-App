@@ -75,7 +75,7 @@
 					android:layout_width="wrap_content"
 					android:layout_height="36dp"
 					android:tag="redmine$"
-					android:text="gttnl.com"
+					android:text="nextlevel.nexus"
 					tools:ignore="HardcodedText"/>
 
 			</LinearLayout>
@@ -161,6 +161,7 @@
 
 
 			<CheckBox
+				android:visibility="gone"
 				android:id="@+id/checkHttpAuth"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -168,6 +169,7 @@
 				android:text="@string/menu_setting_check_auth" />
 
 			<LinearLayout
+				android:visibility="gone"
 				android:id="@+id/formHttpAuth"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
@@ -207,6 +209,7 @@
 			</LinearLayout>
 
 			<CheckBox
+				android:visibility="gone"
 				android:id="@+id/checkPermitUnsafe"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -214,6 +217,7 @@
 				android:text="@string/menu_setting_permit_unsafe" />
 
 			<LinearLayout
+				android:visibility="gone"
 				android:id="@+id/formPermitUnsafe"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
