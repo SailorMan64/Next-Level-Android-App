@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:2:1-90:12
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] /Users/drmac/.gradle/caches/transforms-4/8d75525fa99c525dc1635dcf21f65345/transformed/android-form-edittext-1.2.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:23.0.1] /Users/drmac/.gradle/caches/transforms-4/369206987d6b6178301a980c1b29d188/transformed/design-23.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/drmac/.gradle/caches/transforms-4/6ffe0e5a0e1a99bb8e0854ff493d97f6/transformed/appcompat-v7-23.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/transforms-4/02d300c0a5fdadd3dad21d26026d2f3f/transformed/support-v4-23.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/drmac/.gradle/caches/transforms-4/b6a86d1bb8e08041e1fce2ce0a5b425f/transformed/stickylistheaders-2.7.0/AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:5:2-32
+uses-permission#android.permission.INTERNET
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:9:2-77
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:9:19-75
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:10:2-85
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:10:19-82
+application
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:14:5-88:19
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:14:5-88:19
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] /Users/drmac/.gradle/caches/transforms-4/8d75525fa99c525dc1635dcf21f65345/transformed/android-form-edittext-1.2.1/AndroidManifest.xml:11:5-20
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] /Users/drmac/.gradle/caches/transforms-4/8d75525fa99c525dc1635dcf21f65345/transformed/android-form-edittext-1.2.1/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:23.0.1] /Users/drmac/.gradle/caches/transforms-4/369206987d6b6178301a980c1b29d188/transformed/design-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.0.1] /Users/drmac/.gradle/caches/transforms-4/369206987d6b6178301a980c1b29d188/transformed/design-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/drmac/.gradle/caches/transforms-4/6ffe0e5a0e1a99bb8e0854ff493d97f6/transformed/appcompat-v7-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/drmac/.gradle/caches/transforms-4/6ffe0e5a0e1a99bb8e0854ff493d97f6/transformed/appcompat-v7-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/transforms-4/02d300c0a5fdadd3dad21d26026d2f3f/transformed/support-v4-23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/transforms-4/02d300c0a5fdadd3dad21d26026d2f3f/transformed/support-v4-23.0.1/AndroidManifest.xml:22:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:16:9-43
+	android:allowClearUserData
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:19:3-36
+	android:fullBackupContent
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:18:3-35
+	android:installLocation
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:20:9-39
+	android:icon
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:17:9-35
+	android:description
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:21:9-54
+	android:restoreNeedsApplication
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:22:9-47
+activity#jp.redmine.gttnl.activity.SplashActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:23:9-30:20
+	android:exported
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:24:12-73
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:23:19-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:28:27-74
+activity#jp.redmine.gttnl.activity.CommonPreferenceActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:31:9-39:20
+	android:label
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:32:5-42
+	android:exported
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:33:5-29
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:34:5-66
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:31:19-84
+intent-filter#action:name:android.intent.action.MANAGE_NETWORK_USAGE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:35:6-38:20
+action#android.intent.action.MANAGE_NETWORK_USAGE
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:36:5-73
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:36:13-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:37:5-64
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:37:15-61
+activity#jp.redmine.gttnl.activity.ConnectionListActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:40:9-43:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:42:19-80
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:40:19-82
+activity#jp.redmine.gttnl.activity.ConnectionActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:44:6-46:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:45:23-84
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:44:16-75
+activity#jp.redmine.gttnl.activity.ConnectionEditActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:47:3-49:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:48:20-81
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:47:13-76
+activity#jp.redmine.gttnl.activity.ProjectActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:50:6-52:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:51:16-77
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:50:16-72
+activity#jp.redmine.gttnl.activity.IssueActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:53:6-55:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:54:23-84
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:53:16-70
+activity#jp.redmine.gttnl.activity.IssueFilterActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:56:6-58:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:57:16-77
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:56:16-76
+activity#jp.redmine.gttnl.activity.WikiViewActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:59:3-61:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:60:27-88
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:59:13-70
+activity#jp.redmine.gttnl.activity.ConnectionNaviActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:62:9-64:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:63:5-66
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:62:19-82
+activity#jp.redmine.gttnl.activity.FilterViewActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:65:9-67:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:66:12-73
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:65:19-78
+activity#jp.redmine.gttnl.activity.AttachmentActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:68:3-70:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:69:7-68
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:68:13-72
+activity#jp.redmine.gttnl.activity.TimeEntryActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:71:3-73:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:72:7-68
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:71:13-71
+activity#jp.redmine.gttnl.activity.KanbanActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:74:3-76:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:75:7-68
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:74:13-68
+activity#jp.redmine.gttnl.activity.AboutActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:77:3-79:6
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:78:7-68
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:77:13-67
+activity#jp.redmine.gttnl.activity.WebViewActivity
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:80:3-82:71
+	android:configChanges
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:82:7-68
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:80:13-69
+provider#jp.redmine.gttnl.provider.Attachment
+ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:83:3-87:6
+	android:authorities
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:85:4-53
+	tools:ignore
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:86:4-42
+	android:name
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:84:4-55
+uses-sdk
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] /Users/drmac/.gradle/caches/transforms-4/8d75525fa99c525dc1635dcf21f65345/transformed/android-form-edittext-1.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] /Users/drmac/.gradle/caches/transforms-4/8d75525fa99c525dc1635dcf21f65345/transformed/android-form-edittext-1.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.0.1] /Users/drmac/.gradle/caches/transforms-4/369206987d6b6178301a980c1b29d188/transformed/design-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.0.1] /Users/drmac/.gradle/caches/transforms-4/369206987d6b6178301a980c1b29d188/transformed/design-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/drmac/.gradle/caches/transforms-4/6ffe0e5a0e1a99bb8e0854ff493d97f6/transformed/appcompat-v7-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/drmac/.gradle/caches/transforms-4/6ffe0e5a0e1a99bb8e0854ff493d97f6/transformed/appcompat-v7-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/transforms-4/02d300c0a5fdadd3dad21d26026d2f3f/transformed/support-v4-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/transforms-4/02d300c0a5fdadd3dad21d26026d2f3f/transformed/support-v4-23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/drmac/.gradle/caches/transforms-4/b6a86d1bb8e08041e1fce2ce0a5b425f/transformed/stickylistheaders-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/drmac/.gradle/caches/transforms-4/b6a86d1bb8e08041e1fce2ce0a5b425f/transformed/stickylistheaders-2.7.0/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
