@@ -10,7 +10,7 @@ MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/drmac/.gradle/cache
 MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/transforms-4/02d300c0a5fdadd3dad21d26026d2f3f/transformed/support-v4-23.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /Users/drmac/.gradle/caches/transforms-4/b6a86d1bb8e08041e1fce2ce0a5b425f/transformed/stickylistheaders-2.7.0/AndroidManifest.xml:2:1-11:12
 	package
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:4:5-31
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:4:5-39
 		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml
@@ -67,14 +67,14 @@ MERGED from [com.android.support:support-v4:23.0.1] /Users/drmac/.gradle/caches/
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:21:9-54
 	android:restoreNeedsApplication
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:22:9-47
-activity#jp.redmine.gttnl.activity.SplashActivity
+activity#jp.redmine.redmineclient.activity.SplashActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:23:9-30:20
 	android:exported
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:25:13-36
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:24:12-73
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:23:19-74
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:23:19-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
@@ -85,7 +85,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:28:27-74
-activity#jp.redmine.gttnl.activity.CommonPreferenceActivity
+activity#jp.redmine.redmineclient.activity.CommonPreferenceActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:31:9-39:20
 	android:label
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:32:5-42
@@ -94,7 +94,7 @@ ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmin
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:34:5-66
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:31:19-84
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:31:19-92
 intent-filter#action:name:android.intent.action.MANAGE_NETWORK_USAGE+category:name:android.intent.category.DEFAULT
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:35:6-38:20
 action#android.intent.action.MANAGE_NETWORK_USAGE
@@ -105,98 +105,98 @@ category#android.intent.category.DEFAULT
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:37:5-64
 	android:name
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:37:15-61
-activity#jp.redmine.gttnl.activity.ConnectionListActivity
+activity#jp.redmine.redmineclient.activity.ConnectionListActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:40:9-43:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:42:19-80
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:40:19-82
-activity#jp.redmine.gttnl.activity.ConnectionActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:40:19-90
+activity#jp.redmine.redmineclient.activity.ConnectionActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:44:6-46:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:45:23-84
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:44:16-75
-activity#jp.redmine.gttnl.activity.ConnectionEditActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:44:16-83
+activity#jp.redmine.redmineclient.activity.ConnectionEditActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:47:3-49:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:48:20-81
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:47:13-76
-activity#jp.redmine.gttnl.activity.ProjectActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:47:13-84
+activity#jp.redmine.redmineclient.activity.ProjectActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:50:6-52:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:51:16-77
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:50:16-72
-activity#jp.redmine.gttnl.activity.IssueActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:50:16-80
+activity#jp.redmine.redmineclient.activity.IssueActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:53:6-55:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:54:23-84
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:53:16-70
-activity#jp.redmine.gttnl.activity.IssueFilterActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:53:16-78
+activity#jp.redmine.redmineclient.activity.IssueFilterActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:56:6-58:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:57:16-77
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:56:16-76
-activity#jp.redmine.gttnl.activity.WikiViewActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:56:16-84
+activity#jp.redmine.redmineclient.activity.WikiViewActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:59:3-61:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:60:27-88
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:59:13-70
-activity#jp.redmine.gttnl.activity.ConnectionNaviActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:59:13-78
+activity#jp.redmine.redmineclient.activity.ConnectionNaviActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:62:9-64:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:63:5-66
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:62:19-82
-activity#jp.redmine.gttnl.activity.FilterViewActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:62:19-90
+activity#jp.redmine.redmineclient.activity.FilterViewActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:65:9-67:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:66:12-73
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:65:19-78
-activity#jp.redmine.gttnl.activity.AttachmentActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:65:19-86
+activity#jp.redmine.redmineclient.activity.AttachmentActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:68:3-70:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:69:7-68
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:68:13-72
-activity#jp.redmine.gttnl.activity.TimeEntryActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:68:13-80
+activity#jp.redmine.redmineclient.activity.TimeEntryActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:71:3-73:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:72:7-68
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:71:13-71
-activity#jp.redmine.gttnl.activity.KanbanActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:71:13-79
+activity#jp.redmine.redmineclient.activity.KanbanActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:74:3-76:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:75:7-68
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:74:13-68
-activity#jp.redmine.gttnl.activity.AboutActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:74:13-76
+activity#jp.redmine.redmineclient.activity.AboutActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:77:3-79:6
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:78:7-68
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:77:13-67
-activity#jp.redmine.gttnl.activity.WebViewActivity
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:77:13-75
+activity#jp.redmine.redmineclient.activity.WebViewActivity
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:80:3-82:71
 	android:configChanges
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:82:7-68
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:80:13-69
-provider#jp.redmine.gttnl.provider.Attachment
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:80:13-77
+provider#jp.redmine.redmineclient.provider.Attachment
 ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:83:3-87:6
 	android:authorities
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:85:4-53
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:85:4-61
 	tools:ignore
 		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:86:4-42
 	android:name
-		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:84:4-55
+		ADDED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml:84:4-63
 uses-sdk
 INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/drmac/Downloads/OpenRedmine-Android-App-development/OpenRedmine/src/main/AndroidManifest.xml

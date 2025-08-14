@@ -1,8 +1,4 @@
-package jp.redmine.gttnl.testurl;
-
-
-import jp.redmine.gttnl.url.RemoteUrl.requests;
-import jp.redmine.gttnl.url.RemoteUrlIssue;
+package jp.redmine.redmineclient.testurl;
 
 
 public class RemoteUrlIssueTest{ /*extends AndroidTestCase {

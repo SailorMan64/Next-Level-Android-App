@@ -1,11 +1,6 @@
-package jp.redmine.gttnl.testentity;
+package jp.redmine.redmineclient.testentity;
 
 import static org.junit.Assert.assertNotNull;
-
-
-import java.util.Date;
-
-import jp.redmine.gttnl.entity.TypeConverter;
 
 public class TypeConverterTest {/*extends AndroidTestCase {
 	public void testDateTimeUTC(){
