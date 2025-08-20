@@ -14,7 +14,7 @@
 	<string name="name">Name</string>
 	<string name="label_name">Company Name</string>
 	<string name="save">Save</string>
-	<string name="add">Add</string>Company
+ 	<string name="add">Add</string>Company
 	<string name="menu_setting_check_auth">HTTP Basic Authentication</string>
 	<string name="menu_setting_list_menu_title">%1$s :</string>
 	<string name="comment">Comment</string>
@@ -65,7 +65,7 @@
 	<string name="my_issue">My Issues</string>
 	<string name="ticket_sort">Sort</string>
 	<string name="ticket_other">Other</string>
-	<string name="ticket_project">Strategy</string>
+	<string name="ticket_project">Strategies</string>
 	<string name="ticket_description">Description</string>
 	<string name="ticket_detail">Detail</string>
 	<string name="ticket_relations">Relations</string>
@@ -128,7 +128,7 @@
 	<string name="download_with_manager">Download via Download Manager</string>
 	<string name="wiki">Wiki</string>
 	<string name="connection">Connection</string>
-	<string name="favorite">Favorite</string>
+	<string name="favorite">Favorites</string>
 	<string name="information">Information</string>
 	<string name="homepage">Homepage</string>
 	<string name="news">News</string>
@@ -137,14 +137,11 @@
 	<string name="web">Web</string>
 	<string name="contributors">Contributors</string>
 	<string name="title_home">This Is Next Level</string>
-	<string name="title_category">Value Aspect %1$s</string>
+	<string name="title_category">Category %1$s</string>
 	<string name="title_version">Initiative %1$s</string>
 	<string name="text_type">Text format</string>
 	<string name="text_type_textile">Textile</string>
 	<string name="text_type_markdown">Markdown</string>
 	<string name="text_type_none">None</string>
 	<string name="info">jb.redmine.gttnl v3.21.1</string>
-
-
-
 </resources>
