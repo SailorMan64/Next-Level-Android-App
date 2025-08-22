@@ -29,7 +29,7 @@
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:ems="10"
-				android:hint="@string/name"
+				android:hint="@string/label_name"
 				android:inputType="text"
 				android:maxLines="1"
 				validate:testType="nocheck" >
