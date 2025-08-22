@@ -18,6 +18,7 @@
 		android:fullBackupContent="true"
 		android:allowClearUserData="true"
         android:installLocation="auto"
+		android:usesCleartextTraffic="true"
         android:description="@string/app_description"
         android:restoreNeedsApplication="true">
         <activity android:name="jp.redmine.redmineclient.activity.SplashActivity"

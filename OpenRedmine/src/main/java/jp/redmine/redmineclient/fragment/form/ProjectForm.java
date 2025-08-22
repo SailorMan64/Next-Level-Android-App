@@ -1,6 +1,7 @@
 package jp.redmine.redmineclient.fragment.form;
 
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -52,6 +53,8 @@ public class ProjectForm extends FormHelper {
 		textStatus.setText(textStatus.getContext().getString(rd.getStatus().getResourceId()));
 		textViewHelper.setContent(textHomepage, rd.getConnectionId(), rd.getId(), nvl(rd.getHomepage()));
 		webViewHelper.setContent(webView, con.getWikiType(), rd.getConnectionId(), rd.getId(), nvl(rd.getDescription()));
+
+		Log.e("AxcascsDC", nvl(rd.getDescription()));
 		setDateTime(textCreated, rd.getCreated());
 		setDateTime(textModified, rd.getModified());
 	}

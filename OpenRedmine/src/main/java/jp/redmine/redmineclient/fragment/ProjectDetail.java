@@ -118,6 +118,9 @@ public class ProjectDetail extends OrmLiteFragment<DatabaseCacheHelper> {
 				Log.e(TAG, "onOptionsItemSelected", e);
 				return false;
 			}
+			String projectName = (project != null && project.getName() != null) ? project.getName() : "";
+			String path = "/projects/" + projectName;         // <- this is the URL you set
+			Log.d(TAG, "URL path: " + path);
 
 			WebArgument intent = new WebArgument();
 			intent.setIntent(getActivity().getApplicationContext(), WebViewActivity.class);
@@ -125,6 +128,8 @@ public class ProjectDetail extends OrmLiteFragment<DatabaseCacheHelper> {
 			intent.setUrl("/projects/"
 					+ ((project == null || project.getName() == null) ? "" : project.getName())
 			);
+
+			Log.e("dssfasd",intent.getIntent().getData().toString());
 
 			getActivity().startActivity(intent.getIntent());
 			return true;
