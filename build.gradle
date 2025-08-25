@@ -2,9 +2,8 @@
 
 buildscript {
     repositories {
-        google() // ✅ Required
+        google()
 
-        jcenter()
         mavenCentral()
 
 
@@ -17,7 +16,6 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
         mavenCentral()
         maven {
             url 'https://maven.google.com'

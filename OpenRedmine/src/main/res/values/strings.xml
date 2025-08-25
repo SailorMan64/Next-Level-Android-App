@@ -47,7 +47,7 @@
 	<string name="ticket_status">Status</string>
 	<string name="ticket_priority">Priority</string>
 	<string name="ticket_progress">Progress</string>
-	<string name="ticket_category">Value Aspects</string>
+	<string name="ticket_category">Category</string>
 	<string name="ticket_version">Initiatives</string>
 	<string name="ticket_assigned_to">Assigned to</string>
 	<string name="ticket_assigned">Assigned</string>
@@ -65,7 +65,7 @@
 	<string name="my_issue">My Issues</string>
 	<string name="ticket_sort">Sort</string>
 	<string name="ticket_other">Other</string>
-	<string name="ticket_project">Strategies</string>
+	<string name="ticket_project">Overview</string>
 	<string name="ticket_description">Description</string>
 	<string name="ticket_detail">Detail</string>
 	<string name="ticket_relations">Relations</string>
@@ -133,12 +133,12 @@
 	<string name="recent_issues">Recent issues</string>
 	<string name="web">Web</string>
 	<string name="contributors">Contributors</string>
-	<string name="title_home">This Is Next Level</string>
+	<string name="title_home">Next Level: Strategy Accelerator</string>
 	<string name="title_category">Category %1$s</string>
 	<string name="title_version">Initiative %1$s</string>
 	<string name="text_type">Text format</string>
 	<string name="text_type_textile">Textile</string>
 	<string name="text_type_markdown">Markdown</string>
 	<string name="text_type_none">None</string>
-	<string name="info">jb.redmine.gttnl v3.21.1</string>
+	<string name="info">Next Level Strategy Accelerator v3.3.1</string>
 </resources>
