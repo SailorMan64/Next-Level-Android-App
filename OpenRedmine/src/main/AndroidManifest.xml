@@ -22,7 +22,7 @@
         android:description="@string/app_description"
         android:restoreNeedsApplication="true">
         <activity android:name="jp.redmine.redmineclient.activity.SplashActivity"
-        	  android:configChanges="orientation|screenSize|keyboardHidden"
+        	  
 
             android:exported="true">
             <intent-filter>
@@ -33,7 +33,7 @@
         <activity android:name="jp.redmine.redmineclient.activity.CommonPreferenceActivity"
 		  android:label="@string/menu_settings"
 		  android:exported="false"
-		  android:configChanges="orientation|screenSize|keyboardHidden">
+		  >
 		  	<intent-filter>
 				<action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
 				<category android:name="android.intent.category.DEFAULT" />
@@ -41,47 +41,47 @@
         </activity>
         <activity android:name="jp.redmine.redmineclient.activity.ConnectionListActivity"
 
-                  android:configChanges="orientation|screenSize|keyboardHidden"
+                  
 			/>
 	    <activity android:name="jp.redmine.redmineclient.activity.ConnectionActivity"
-                      android:configChanges="orientation|screenSize|keyboardHidden"
+                      
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.ConnectionEditActivity"
-                	  android:configChanges="orientation|screenSize|keyboardHidden"
+                	  
 			/>
 	    <activity android:name="jp.redmine.redmineclient.activity.ProjectActivity"
-        	      android:configChanges="orientation|screenSize|keyboardHidden"
+        	      
 			/>
 	    <activity android:name="jp.redmine.redmineclient.activity.IssueActivity"
-                      android:configChanges="orientation|screenSize|keyboardHidden"
+                      
 			/>
 	    <activity android:name="jp.redmine.redmineclient.activity.IssueFilterActivity"
-	              android:configChanges="orientation|screenSize|keyboardHidden"
+	              
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.WikiViewActivity"
-                          android:configChanges="orientation|screenSize|keyboardHidden"
+                          
 			/>
         <activity android:name="jp.redmine.redmineclient.activity.ConnectionNaviActivity"
-		  android:configChanges="orientation|screenSize|keyboardHidden"
+		  
 			/>
         <activity android:name="jp.redmine.redmineclient.activity.FilterViewActivity"
-        	  android:configChanges="orientation|screenSize|keyboardHidden"
+        	  
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.AttachmentActivity"
-				  android:configChanges="orientation|screenSize|keyboardHidden"
+				  
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.TimeEntryActivity"
-				  android:configChanges="orientation|screenSize|keyboardHidden"
+				  
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.KanbanActivity"
-				  android:configChanges="orientation|screenSize|keyboardHidden"
+				  
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.AboutActivity"
-				  android:configChanges="orientation|screenSize|keyboardHidden"
+				  
 			/>
 		<activity android:name="jp.redmine.redmineclient.activity.WebViewActivity"
 
-				  android:configChanges="orientation|screenSize|keyboardHidden" />
+				   />
 		<provider
 			android:name="jp.redmine.redmineclient.provider.Attachment"
 			android:authorities="jp.redmine.redmineclient.attachment"
