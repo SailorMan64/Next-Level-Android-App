@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy of your launcher foreground vector, with a scale group added -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Zoom the content ~12–18%. Pivot at center of viewport (54,54). -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.15"
+        android:scaleY="1.15">
+
+        <!-- PASTE all original <path> / <group> content from your
+             adaptive icon foreground vector here, unchanged. -->
+        <!-- Example:
+        <path
+            android:fillColor="#134AC1"
+            android:pathData="M ..."/>
+        -->
+    </group>
+</vector>

@@ -12,7 +12,7 @@
 
 
     <application
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/next_level_icon"
         android:label="Next Level: Strategy Accelerator"
         android:allowBackup="true"
 		android:fullBackupContent="true"

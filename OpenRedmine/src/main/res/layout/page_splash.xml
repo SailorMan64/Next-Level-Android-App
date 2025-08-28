@@ -16,21 +16,30 @@
 			android:layout_height="wrap_content"
 			android:layout_gravity="fill_vertical"
 			android:orientation="vertical" >
-				<TextView
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:drawableTop="@mipmap/ic_launcher"
-					android:gravity="center"
-					android:text="@string/app_name"
-					android:textAppearance="?android:attr/textAppearanceLarge" />
 
-				<TextView
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_marginLeft="20dp"
-					android:layout_marginRight="20dp"
-					android:layout_marginTop="100dp"
-					android:text="@string/message_first_time" />
+			<ImageView
+				android:layout_width="match_parent"
+				android:src="@drawable/ic_next_level_logo"
+				android:scaleType="fitXY"
+				android:padding="20dp"
+				android:layout_height="200dp"/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:layout_marginTop="50dp"
+				android:text="@string/app_name"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginTop="50dp"
+				android:gravity="center"
+				android:text="@string/message_first_time" />
 
 
 		</LinearLayout>
@@ -43,7 +52,7 @@
 		android:layout_marginBottom="10dp"
 		android:layout_marginRight="20dp"
 		android:gravity="right"
-		android:text=""
+		android:text="@string/info"
 		android:textAppearance="?android:attr/textAppearanceSmall" />
 
 

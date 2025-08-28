@@ -80,7 +80,7 @@ abstract class TabActivity<T extends OrmLiteSqliteOpenHelper> extends OrmLiteFra
 		//actionBar.setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#1fa0e3")));
 		actionBar.setDisplayShowTitleEnabled(true);
 		actionBar.setDisplayShowHomeEnabled(true);
-		actionBar.setLogo(R.mipmap.ic_launcher);
+		actionBar.setLogo(R.drawable.ic_logo_toolbar_padded);  // <-- square in ActionBar
 		actionBar.setDisplayUseLogoEnabled(true);
 		//actionBar.setDisplayHomeAsUpEnabled(true);
 
