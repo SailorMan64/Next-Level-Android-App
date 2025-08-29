@@ -63,7 +63,7 @@ public class ProjectActivity extends TabActivity<DatabaseCacheHelper>
 					}
 				})
 						.setParam(argProject)
-						.setName(getString(R.string.ticket_project))
+						.setName(getString(R.string.strategy_detail_overview_tab_title))
 						.setIcon(R.drawable.ic_clipboard_list)
 		);
 

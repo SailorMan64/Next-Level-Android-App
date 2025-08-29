@@ -20,10 +20,10 @@ abstract class RedmineBaseAdapter<T> extends BaseAdapter implements LRUCache.IFe
 	protected abstract T getDbItem(int position) throws SQLException;
 	protected abstract long getDbItemId(T item);
 	/**
-	 * Adding item on the background, it causes crash on notifyDataSetChanged.
-	 * To avoid crash, store count before notifyDataSetChanged and return count in the getCount
-	 * inherit from http://www.mumei-himazin.info/blog/?p=96
-	 */
+     * Adding item on the background, it causes crash on notifyDataSetChanged.
+     * To avoid crash, store count before notifyDataSetChanged and return count in the getCount
+     * inherit from <a href="http://www.mumei-himazin.info/blog/?p=96">...</a>
+     */
 	private int count = 0;
 	/**
 	 * Bless ListView the data has been changed.
@@ -53,6 +53,8 @@ abstract class RedmineBaseAdapter<T> extends BaseAdapter implements LRUCache.IFe
 	 * @return null or item
 	 * @deprecated this method is called from BaseAdapter only
 	 */
+	@Deprecated // Add this annotation
+	@SuppressWarnings("deprecation") // Add this to suppress further warnings about using/overriding deprecated items
 	@Override
 	public Object getItem(int position) {
 		return getItemWithCache(position);
@@ -75,11 +77,14 @@ abstract class RedmineBaseAdapter<T> extends BaseAdapter implements LRUCache.IFe
 	 * @return null or item
 	 * @deprecated this method is called from IFetchObject only
 	 */
+	@Deprecated // Add this annotation
+	@SuppressWarnings("deprecation") // Add this to suppress further warnings about using/overriding deprecated items
 	@Override
 	public Object getItem(Integer position) {
-		if(!isValidParameter())
-            return null;
-        try {
+		if(!isValidParameter()) {
+			return null;
+		}
+		try {
 			return getDbItem(position);
 		} catch (SQLException e) {
 			Log.e(TAG,"getDbItem" , e);

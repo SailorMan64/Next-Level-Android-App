@@ -1,37 +1,17 @@
 apply plugin: 'com.android.application'
 android {
-    //Apply versions
-    //def compile_version = System.getenv("ANDROID_COMPILE_SDK_VERSION") ?: "23"
-    //def build_tool_version = System.getenv("ANDROID_BUILD_TOOL_VERSION") ?: '25.0.0'
-    //def target_sdk_version =System.getenv("ANDROID_TARGET_SDK_VERSION") ?: "23"
-    //println "Compile SDK: $compile_version Tool version: $build_tool_version Target version: $target_sdk_version"
-
-    //Make version code
-    // def version = System.getenv("TRAVIS_TAG") ?: ""
-    // if (version == "") {version = "${System.env.TRAVIS_BRANCH}-${System.env.TRAVIS_BUILD_NUMBER}"}
-    // else {version = version.replace("v", "")}
-    //if (version == "null-null") {version = "dev"}
-    // def version_code = System.getenv("TRAVIS_BUILD_NUMBER") ?: "0"
-
-    // println "Build version: $version ($version_code)"
-
-    //compileSdkVersion Integer.decode(compile_version)
-    //buildToolsVersion build_tool_version
-    namespace 'jp.redmine.redmineclient' // <-- replace with your actual package name
+     namespace 'jp.redmine.redmineclient' // <-- replace with your actual package name
 
     compileSdkVersion 35
-    buildToolsVersion "28"
     testBuildType "debug"
 
     defaultConfig {
         minSdkVersion 14
-        //targetSdkVersion Integer.decode(target_sdk_version)
-
         versionCode 6
         versionName "3.3.1"
         targetSdkVersion 35
         testApplicationId "jp.redmine.gttnltest"
-        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         testHandleProfiling true
         testFunctionalTest true
         multiDexEnabled false
@@ -47,11 +27,7 @@ android {
     buildFeatures {
         buildConfig true
     }
-    //productFlavors {
-    //    lollipop {
-    //        minSdkVersion 21
-    //    }
-    //}
+
     buildTypes {
         debug {
             debuggable true
@@ -59,10 +35,6 @@ android {
             buildConfigField 'boolean', 'DEBUG_XML', 'false'
         }
         release {
-            //runProguard true
-            //proguardFile getDefaultProguardFile('proguard-android.txt')
-            //proguardFile file('proguard-project.txt')
-
             debuggable false
             zipAlignEnabled true
             buildConfigField 'boolean', 'DEBUG_XML', 'false'
@@ -71,15 +43,21 @@ android {
             }
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
-    androidTestImplementation 'com.google.guava:guava:20.0'
-    androidTestImplementation 'junit:junit:4.12'
+    // ---- Main Application Dependencies ----
+    // These will be migrated to AndroidX later
     implementation 'com.android.support:support-v4:23.0.1'
     implementation 'com.android.support:appcompat-v7:23.0.1'
-    //compile 'com.android.support:animated-vector-drawable:23.0.1'
+    //compile 'com.android.support:animated-vector-drawable:23.0.1' // This was commented out, keeping it so
     implementation 'com.android.support:design:23.0.1'
+
+    // Your other app dependencies
     implementation 'com.andreabaccega:android-form-edittext:1.2.1'
     implementation 'se.emilsjolander:stickylistheaders:2.7.0'
     implementation 'com.j256.ormlite:ormlite-core:4.48'
@@ -87,6 +65,20 @@ dependencies {
     implementation 'org.apache.commons:commons-lang3:3.4'
     implementation 'net.java:textile-j:2.2'
     implementation 'org.commonjava.googlecode.markdown4j:markdown4j:2.2-cj-1.0'
+
+
+    // ---- Test Dependencies ----
+
+    // For local unit tests (run on JVM, in src/test/java)
+    testImplementation 'junit:junit:4.13.2'
+
+    // For Instrumented tests (run on Android device or emulator, in src/androidTest/java)
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test:runner:1.5.2' // Provides AndroidJUnitRunner
+
+    // Your existing Guava test dependency
+    androidTestImplementation 'com.google.guava:guava:20.0' // Consider updating this later
 }
 
 if (project.hasProperty('keyAlias')) {

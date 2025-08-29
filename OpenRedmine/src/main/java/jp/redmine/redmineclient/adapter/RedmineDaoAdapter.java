@@ -91,6 +91,8 @@ abstract class RedmineDaoAdapter<T, ID, H extends OrmLiteSqliteOpenHelper>
 	 * @return null or item
 	 * @deprecated this method is called from IFetchObject only
 	 */
+	@Deprecated // Add this annotation
+	@SuppressWarnings("deprecation") // Add this to suppress further warnings about using/overriding deprecated items
 	@Override
 	public Object getItem(int position) {
 		if(!isValidParameter())

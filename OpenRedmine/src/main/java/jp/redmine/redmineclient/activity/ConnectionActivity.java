@@ -52,7 +52,7 @@ public class ConnectionActivity extends TabActivity<DatabaseCacheHelper> {
 					}
 				})
 				.setParam(argList)
-				.setName(getString(R.string.ticket_project))
+				.setName(getString(R.string.strategies_list_tab_title))
 				.setIcon(R.drawable.ic_clipboard_list)
 		);
 
