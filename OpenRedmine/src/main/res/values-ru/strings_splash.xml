@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">GTTNL</string>
-  <string name="app_description"><![CDATA[
-GTTNL
-]]></string>
-  <string name="product">продукт</string>
-  <string name="message_first_time"><![CDATA[Спасибо, что используете OpenRedmine.
-
- ]]></string>
-  <string name="license">лицензия</string>
+  <string name="app_name">Next Level: Ускоритель стратегий</string>
+  <string name="app_description"><![CDATA[Next Level Ускоритель стратегий]]></string>
+  <string name="product">Продукт</string>
+  <string name="message_first_time"><![CDATA[Это переход на следующий уровень!]]></string>
+  <string name="license">Лицензия</string>
   <string name="footer_version">%1$s v%2$s[%3$d] - %4$s</string>
 </resources>

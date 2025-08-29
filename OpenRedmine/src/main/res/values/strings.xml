@@ -96,6 +96,8 @@
 	<string name="project_status_active">Active</string>
 	<string name="project_status_closed">Closed</string>
 	<string name="project_status_archived">Archived</string>
+	<string name="strategies_list_tab_title">Strategies</string>
+	<string name="strategy_detail_overview_tab_title">Overview</string>
 	<string name="ascending">ascending</string>
 	<string name="descending">descending</string>
 	<string name="menu_setting_goto_redmine">Get token</string>

@@ -83,7 +83,7 @@
   <string name="issue_id">#%1$d</string>
   <string name="issue_id_subject">#%1$d %2$s</string>
   <string name="issue_id_tracker_subject">%3$s #%1$d %2$s</string>
-  <string name="relation_none"></string>
+  <string name="relation_none">Keine</string>
   <string name="relation_relates">Zugehören</string>
   <string name="relation_duplicates">Duplikate</string>
   <string name="relation_duplicated">Dupliziert</string>
@@ -92,10 +92,12 @@
   <string name="relation_precedes">%1$d Tage Vorgänger von</string>
   <string name="relation_follows">%1$d Tage Nachfolger von</string>
   <string name="relation_copied_to">Kopiert</string>
-  <string name="project_status_none"></string>
+  <string name="project_status_none">Nicht angegeben</string>
   <string name="project_status_active">Aktiv</string>
   <string name="project_status_closed">Geschlossen</string>
   <string name="project_status_archived">Archiviert</string>
+  <string name="strategies_list_tab_title">Strategien</string>
+  <string name="strategy_detail_overview_tab_title">Übersicht</string>
   <string name="ascending">Aufsteigend</string>
   <string name="descending">Absteigend</string>
   <string name="menu_setting_goto_redmine">Token laden</string>

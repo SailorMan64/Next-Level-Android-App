@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">GTTNL</string>
-  <string name="app_description"><![CDATA[
-GTTNL APP
-]]></string>
-  <string name="product">Product</string>
-  <string name="message_first_time"><![CDATA[Thank you for downloading.
-
-]]></string>
-  <string name="license">License</string>
+  <string name="app_name">Next Level: Acelerador de Estrategia</string>
+  <string name="app_description"><![CDATA[Next Level Acelerador de Estrategia]]></string>
+  <string name="product">Producto</string>
+  <string name="message_first_time"><![CDATA[¡Esto es Llegar al Siguiente Nivel!]]></string>
+  <string name="license">Licencia</string>
   <string name="footer_version">%1$s v%2$s[%3$d] - %4$s</string>
 </resources>

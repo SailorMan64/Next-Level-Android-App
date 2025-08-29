@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">GTTNL</string>
-  <string name="app_description"><![CDATA[
-GTTNL
-]]></string>
+  <string name="app_name">Next Level: 戦略アクセラレーター</string>
+  <string name="app_description"><![CDATA[Next Level 戦略アクセラレーター]]></string>
   <string name="product">製品</string>
-  <string name="message_first_time"><![CDATA[ダウンロードしていただき、ありがとうございます。
-
- ]]></string>
+  <string name="message_first_time"><![CDATA[これが次のレベルへの到達です！]]></string>
   <string name="license">ライセンス</string>
   <string name="footer_version">%1$s v%2$s[%3$d] - %4$s</string>
 </resources>

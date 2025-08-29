@@ -20,12 +20,12 @@
   <string name="menu_setting_list_menu_title">%1$s :</string>
   <string name="comment">Comentar</string>
   <string name="delete">Remover</string>
-  <string name="menu_settings_loading">Obtendo dados do item...</string>
+  <string name="menu_settings_loading">Obtendo dados do item &#8230;</string>
   <string name="menu_settings_uploading">Enviando dados do item..</string>
   <string name="menu_confirm_delete_msg">Tem certeza que deseja remover esta conexão?</string>
   <string name="preference_category_issue">Tarefas</string>
   <string name="preference_issue_get_all">Obter todas as tarefas</string>
-  <string name="preference_issue_description_get_all">Por padrão, obtém apenas tarefas NÃO FECHADAS do servidor remoto. Se ao invez disso você deseja obter todas as tarefas, marque esta opção.</string>
+  <string name="preference_issue_description_get_all">Por padrão, obtém apenas tarefas NÃO FECHADAS do servidor remoto. Se ao invés disso você deseja obter todas as tarefas, marque esta opção.</string>
   <string name="preference_category_appearance">Aparência</string>
   <string name="preference_category_appearance_themes">Tema</string>
   <string name="menu_refresh">Atualizar lista</string>
@@ -83,7 +83,7 @@
   <string name="issue_id">#%1$d</string>
   <string name="issue_id_subject">#%1$d %2$s</string>
   <string name="issue_id_tracker_subject">%3$s #%1$d %2$s</string>
-  <string name="relation_none"></string>
+  <string name="relation_none">Nenhuma</string>
   <string name="relation_relates">Relaciona</string>
   <string name="relation_duplicates">Duplica</string>
   <string name="relation_duplicated">Duplicada</string>
@@ -92,10 +92,12 @@
   <string name="relation_precedes">%1$d dias precedentes</string>
   <string name="relation_follows">%1$d dias conseguintes</string>
   <string name="relation_copied_to">Copiada</string>
-  <string name="project_status_none"></string>
+  <string name="project_status_none">Não especificado</string>
   <string name="project_status_active">Ativo</string>
   <string name="project_status_closed">Fechado</string>
   <string name="project_status_archived">Arquivado</string>
+  <string name="strategies_list_tab_title">Estratégias</string>
+  <string name="strategy_detail_overview_tab_title">Visão Geral</string>
   <string name="ascending">ascendente</string>
   <string name="descending">descendente</string>
   <string name="menu_setting_goto_redmine">Obter token</string>

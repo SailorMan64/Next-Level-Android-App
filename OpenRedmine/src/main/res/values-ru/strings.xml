@@ -79,7 +79,7 @@
   <string name="issue_id">#%1$d</string>
   <string name="issue_id_subject">#%1$d %2$s</string>
   <string name="issue_id_tracker_subject">%3$s #%1$d %2$s</string>
-  <string name="relation_none"></string>
+  <string name="relation_none">Нет связи</string>
   <string name="relation_relates">Связана с</string>
   <string name="relation_duplicates">Дублирует</string>
   <string name="relation_duplicated">Дублируется</string>
@@ -88,10 +88,12 @@
   <string name="relation_precedes">%1$d дн. до</string>
   <string name="relation_follows">%1$d дн. после</string>
   <string name="relation_copied_to">Скопирована в</string>
-  <string name="project_status_none"></string>
+  <string name="project_status_none">Не указан</string>
   <string name="project_status_active">Активный</string>
   <string name="project_status_closed">Закрыт</string>
   <string name="project_status_archived">Архивировано</string>
+  <string name="strategies_list_tab_title">Стратегии</string>
+  <string name="strategy_detail_overview_tab_title">Обзор</string>
   <string name="ascending">по возрастанию</string>
   <string name="descending">по убыванию</string>
   <string name="menu_setting_goto_redmine">Получить ключ</string>
