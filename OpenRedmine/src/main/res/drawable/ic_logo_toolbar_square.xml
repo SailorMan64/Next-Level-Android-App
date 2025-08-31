@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Square (or rounded-square) background -->
-    <item>
-        <shape android:shape="rectangle">
-            <!-- Change color to your brand if you want a colored square -->
-            <solid android:color="@android:color/white"/>
-            <!-- Use 0dp for sharp square corners, or a few dp for subtle rounding -->
-            <corners android:radius="6dp"/>
-        </shape>
-    </item>
-
-    <!-- Put the adaptive icon FOREGROUND centered inside the square -->
-    <!-- If your adaptive icon name is next_level_icon, Studio generated
-         a drawable foreground at: @drawable/next_level_icon_foreground -->
-    <item
+     <item
         android:gravity="center"
-        android:width="34dp"
-        android:height="34dp"
+        android:width="56dp"
+        android:height="56dp"
         android:drawable="@drawable/next_level_icon_foreground"/>
 </layer-list>

@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 android {
-     namespace 'jp.redmine.redmineclient' // <-- replace with your actual package name
+    namespace 'jp.redmine.redmineclient' // <-- replace with your actual package name
 
     compileSdkVersion 35
     testBuildType "debug"
@@ -11,7 +11,6 @@ android {
         versionName "3.3.1"
         targetSdkVersion 35
         testApplicationId "jp.redmine.gttnltest"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         testHandleProfiling true
         testFunctionalTest true
         multiDexEnabled false
@@ -72,10 +71,8 @@ dependencies {
     // For local unit tests (run on JVM, in src/test/java)
     testImplementation 'junit:junit:4.13.2'
 
-    // For Instrumented tests (run on Android device or emulator, in src/androidTest/java)
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    androidTestImplementation 'androidx.test:runner:1.5.2' // Provides AndroidJUnitRunner
+    // For instrumented tests (run on an Android device or emulator, in src/androidTest/java)
+    androidTestImplementation 'junit:junit:4.13.2'
 
     // Your existing Guava test dependency
     androidTestImplementation 'com.google.guava:guava:20.0' // Consider updating this later
@@ -93,5 +90,3 @@ if (project.hasProperty('storeFile')) {
 if (project.hasProperty('storePassword')) {
     android.signingConfigs.release.storePassword = storePassword
 }
-
-
