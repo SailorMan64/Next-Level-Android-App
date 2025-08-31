@@ -1,0 +1,43 @@
+gitignore
+# IDE files
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+# Add more .idea files if desired from comprehensive list
+
+.DS_Store
+Thumbs.db # For Windows users
+
+# Build files
+/build
+*/build
+
+# Explicitly ignore compiled artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Generated files
+captures/
+.externalNativeBuild
+
+# Keystore files - DO NOT commit release keystores to public repos!
+# Manage them securely.
+# *.jks
+# *.keystore
+
+# Optional: Google Services - uncomment if you handle it outside the repo
+# google-services.json
+
+# Optional: Project's gradle.properties
+# Commit if it contains only non-sensitive build config.
+# Ignore if it might contain secrets or machine-specific paths.
+# gradle.properties
